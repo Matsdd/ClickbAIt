@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ClickbAIt3000</title>
+    <link rel="stylesheet" href="style.css"/>
+    <script src="script.js"></script>
+</head>
+<body>
+<div class="chat-container">
+    <div class="chat-header">
+        <h2>ClickbAIt</h2>
+    </div>
+    <div class="chat-body">
+        <div class="input-container">
+            <label for="subject">What subject do you want your title to be about?</label>
+            <input type="text" id="subject" placeholder="Enter subject">
+
+            <label for="genre">What genre do you want the title to be for?</label>
+            <input type="text" id="genre" placeholder="Enter genre">
+
+            <label for="weirdness">On a scale from 1 to 10, how weird do you want your title to be?</label>
+            <input type="text" id="weirdness" placeholder="Enter weirdness level">
+
+            <button id="submit-button" onclick="askQuestion()">
+                Send
+            </button>
+        </div>
+
+    </div>
+</div>
+<div class="chat-container">
+    <div class="chat-header">
+        <h2>Output</h2>
+    </div>
+    <div class="input-container">
+        <div id="chat-output"></div>
+    </div>
+</div>
+</body>
+</html>
