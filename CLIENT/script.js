@@ -32,7 +32,7 @@ function askQuestion() {
                             <strong>With weirdness level:</strong> ${Weirdness}
                             </div>`;
 
-    fetch(`http://localhost:3000/chat`, {
+    fetch(`http://localhost:3003/chat`, {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
