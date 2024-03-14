@@ -1,5 +1,7 @@
 # ClickbAIt
-ClickbAIt is an AI tool that will help you create a fitting clickbait title for you YouTube video based on what is popular!
+ClickbAIt is an AI tool to help you generate clickbait YouTube titles. It takes the user input and puts them in an engineerd prompt. It also takes the subject & genre and searches for them on YouTube using the YouTube API. This way it can create working and up to date video titles, even if the subject was released after the LLM's training stage.
+
+ClickbAIt uses NodeJS with Javascript and uses a .env file that is placed in the gitignore to hide the API keys.
 
 Installation instructions:
 1 after cloning the repo, go to the terminal in your prefered IDE and CD to the SERVER directory.
